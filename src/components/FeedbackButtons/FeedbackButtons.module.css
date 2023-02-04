@@ -1,0 +1,47 @@
+.FeedbackButtons__section {
+ display: flex;
+ justify-content: space-between;
+ height: 38px;
+ padding: 0 45px;
+ list-style-type: none;
+}
+
+.FeedbackButtons__item {
+ list-style-type: none;
+ position: relative;
+}
+
+.FeedbackButtons__button {
+ position: relative;
+ display: block;
+ width: 150px;
+ height: 50px;
+ background: linear-gradient(#025aa2e0, #00070ca0 50%, #025aa2bb);
+ border: none;
+ margin: 0;
+ overflow: hidden;
+ border-radius: 9px;
+ color: #6caff280;
+ font-size: 22px;
+ font-weight: 100;
+ transition: all 700ms;
+}
+
+.FeedbackButtons__itemPlate {
+ position: absolute;
+ display: block;
+ top: -3px;
+ left: -29px;
+ height: 38px;
+ width: 69px;
+ border-radius: 15px 3px 15px 15px;
+ background: linear-gradient(#013967, #00070ca0 70%, #00060a);
+}
+
+.FeedbackButtons__button:hover {
+ color: #ffffff8a;
+ transition: all 250ms;
+ transform: scale(1.11);
+ border: 1px solid #58595b12;
+ background: linear-gradient(#b7d9f560, #0000009a 50%, #b7d9f560);
+}
