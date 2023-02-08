@@ -10,31 +10,24 @@
  font-size: 22px;
  font-weight: 300;
  font-style: italic;
- color: #00c3ffa2;
- /* padding-bottom: 39px; */
+ color: #016a18;
  margin: 0;
 }
 
 .StatisticsList__itemNumber {
- color: #44e89196;
+ color: #cdcdcdbe;
  font-size: 40px;
  font-weight: 200;
 }
 .StatisticsList__item:nth-child(1) {
  left: 24px;
- font-size: 22px;
- font-weight: 300;
 }
 .StatisticsList__item:nth-child(2) {
  left: 254px;
- font-size: 22px;
- font-weight: 300;
 }
 
 .StatisticsList__item:nth-child(3) {
  left: 484px;
- font-size: 22px;
- font-weight: 300;
 }
 
 .StatisticsList__item:nth-child(4) {
@@ -44,5 +37,5 @@
 
 .StatisticsList__item:nth-child(5) {
  top: 40px;
- left: 360px;
+ left: 350px;
 }

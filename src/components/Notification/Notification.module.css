@@ -9,9 +9,9 @@
 .NotificationInscription__tit {
  position: absolute;
  display: grid;
- font-size: 22px;
- font-weight: 300;
+ font-size: 24px;
+ font-weight: 200;
  font-style: italic;
- color: #f5faf74c;
+ color: #006227;
  bottom: 10px;
 }

@@ -21,5 +21,34 @@ export function FeedbackButtons({ buttons, leaveFeedback }) {
     </li>
    ))}
   </ul>
+  //   <ul>
+  //    <button
+  //     className={css.BtnGood}
+  //     type="button"
+  //     name="buttonGood"
+
+  //    >
+  //     Good
+  //    </button>
+
+  //    <button
+  //     onClick={leaveFeedback}
+  //     className={css.BtnNeutral}
+  //     type="button"
+  //     name="buttonNeutral"
+
+  //    >
+  //     Neutral
+  //    </button>
+  //    <button
+  //     onClick={leaveFeedback}
+  //     className={css.BtnBad}
+  //     type="button"
+  //     name="buttonBad"
+
+  //    >
+  //     Bad
+  //    </button>
+  //   </ul>
  );
 }

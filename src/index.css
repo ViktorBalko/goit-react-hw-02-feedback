@@ -5,9 +5,15 @@ body {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale;
- background-color: #001c2e;
+ background-color: #000;
  height: 100vh;
- color: rgba(0, 255, 255, 0.243);
+ background-image: url('https://pixabay.com/get/g7dcc0c9bdf9e91cb08b7b82636b7545579738ab45fd30027e35d99a2a4172ffc94547b2144aba8114afba43fc8fc435ca026c0e771315f007a703ba379045588_1280.jpg');
+ background-image: url('https://www.businessbusinessbusiness.com.au/wp-content/uploads/2020/08/Customer-Feedback1.png');
+ /* background-size: 120%; */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: rgba(0, 0, 0, 0.781);
 }
 
 code {
@@ -15,9 +21,9 @@ code {
 }
 
 .Homework__title {
- color: #04a5c9b5;
- font-size: 22px;
- font-weight: 200;
+ color: #ffffff6d;
+ font-size: 17px;
+ font-weight: 300;
  font-style: italic;
- padding: 30px;
+ padding: 60px 40px;
 }
