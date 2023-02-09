@@ -11,6 +11,8 @@
  position: relative;
 }
 
+/* .FeedbackButtons__item:hover */
+
 .FeedbackButtons__button {
  position: relative;
  display: block;
@@ -23,7 +25,7 @@
  overflow: hidden;
  border-radius: 9px;
  color: #ffffff51;
- font-size: 22px;
+ font-size: 17px;
  text-transform: uppercase;
  font-weight: 100;
  transition: all ease-out 100ms;
@@ -34,6 +36,8 @@
  color: #ffffffb0;
  transition: all ease-in 150ms;
  transform: scale(1.39);
+ /* font-size: 22px; */
+ font-size: 11px;
  /* border-radius: 13px; */
  box-shadow: none;
  /* box-shadow: 1px 1px 7px 1px #4446466b; */
