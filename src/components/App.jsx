@@ -32,7 +32,7 @@ class App extends Component {
 
   return (
    <>
-    <h1 className="Homework__title">Goit React HW#2 Feedback</h1>
+    <h1 className="Homework__title">Goit React Hw#2 Feedback</h1>
     <Section title={'Leave Your Feedback'}>
      <FeedbackButtons
       buttons={this.state}

@@ -26,14 +26,14 @@
  font-size: 22px;
  text-transform: uppercase;
  font-weight: 100;
- transition: all ease-out 700ms;
+ transition: all ease-out 100ms;
  /* box-shadow: 3px 3px 19px 3px #ffffff05; */
 }
 
 .FeedbackButtons__button:hover {
  color: #ffffffb0;
- transition: all ease-in 250ms;
- transform: scale(1.11);
+ transition: all ease-in 150ms;
+ transform: scale(1.39);
  /* border-radius: 13px; */
  box-shadow: none;
  /* box-shadow: 1px 1px 7px 1px #4446466b; */
@@ -87,11 +87,11 @@ button {
 .FeedbackButtons__itemPlate {
  position: absolute;
  display: block;
- top: -3px;
+ top: -9px;
  left: -29px;
  height: 38px;
  width: 69px;
  border-radius: 11px 2px 11px 11px;
- background-color: rgba(255, 255, 255, 0.075);
+ background-color: rgba(8, 8, 8, 0.693);
  /* background: linear-gradient(#00000085, #00070ca0 70%, #33393c18); */
 }
