@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import css from './FeedbackButtons.module.css';
 
 export function FeedbackButtons({ buttons, leaveFeedback }) {
@@ -21,34 +23,10 @@ export function FeedbackButtons({ buttons, leaveFeedback }) {
     </li>
    ))}
   </ul>
-  //   <ul>
-  //    <button
-  //     className={css.BtnGood}
-  //     type="button"
-  //     name="buttonGood"
-
-  //    >
-  //     Good
-  //    </button>
-
-  //    <button
-  //     onClick={leaveFeedback}
-  //     className={css.BtnNeutral}
-  //     type="button"
-  //     name="buttonNeutral"
-
-  //    >
-  //     Neutral
-  //    </button>
-  //    <button
-  //     onClick={leaveFeedback}
-  //     className={css.BtnBad}
-  //     type="button"
-  //     name="buttonBad"
-
-  //    >
-  //     Bad
-  //    </button>
-  //   </ul>
  );
 }
+
+FeedbackButtons.propTypes = {
+ buttons: PropTypes.object.isRequired,
+ leaveFeedback: PropTypes.func.isRequired,
+};
